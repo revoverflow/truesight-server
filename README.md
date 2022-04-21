@@ -1,6 +1,6 @@
 ![Truesight](public/img/truesight_white.png)
 
-# Truesight Server
+# Truesight Server (W.I.P.)
 Search tool for OSINT and many other purposes. Truesight provides an API to search different souces through modules and replies results as a JSON object.
 
 # Official Modules
