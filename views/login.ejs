@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truesight - Login</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <section class="login-container hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                        <form action="/login" method="POST" class="box">
+                            <img src="/img/truesight.png">
+                            <h1 class="title">Admin panel</h1>
+
+                            <% if (error) { %>
+                            <div class="notification is-danger">
+                                <p><%= error %></p>
+                            </div>
+                            <% } %>
+
+                            <div class="field">
+                                <label class="label">Username</label>
+                                <div class="control">
+                                    <input type="text" placeholder="admin" class="input" name="username" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Password</label>
+                                <div class="control">
+                                    <input type="password" placeholder="*******" class="input" name="password" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <button class="button is-success">
+                                    Login
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

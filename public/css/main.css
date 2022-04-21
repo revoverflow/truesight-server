@@ -1,0 +1,44 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Syne:wght@400;500;600;700;800&display=swap');
+
+section.login-container {
+    background-color: #fafafa;
+    font-family: 'DM Sans', sans-serif;
+}
+
+section.login-container img {
+    margin-bottom: 20px;
+}
+
+section.login-container label {
+    font-family: 'DM Sans', sans-serif;
+}
+
+section.login-container input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+section.login-container button {
+    margin-top: 20px;
+    width: 100%;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#navbar {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1.title {
+    color: #000000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+button.button {
+    font-family: 'DM Sans', sans-serif;
+}

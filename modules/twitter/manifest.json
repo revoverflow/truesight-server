@@ -1,0 +1,30 @@
+{
+    "name": "twitter",
+    "main": "index.js",
+    "version": "1.0.0",
+    "description": "Twitter for Truesight",
+    "searchTypes": [
+        {
+            "name": "users",
+            "description": "Users by keyword",
+            "parameters": {
+                "username": {
+                    "type": "string",
+                    "description": "Username",
+                    "required": true
+                }
+            }
+        },
+        {
+            "name": "tweets",
+            "description": "Tweets by keyword",
+            "parameters": {
+                "keyword": {
+                    "type": "string",
+                    "description": "Keyword",
+                    "required": true
+                }
+            }
+        }
+    ]
+}
